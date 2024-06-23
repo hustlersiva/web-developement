@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:cornsilk;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    background:linear-gradient(500deg,#e94408,rgba(206, 20, 20, 0.461));
+}
+.course{
+    display: flex;
+   
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow:0 10px 10px rgb(83, 79, 79);
+    width: 600px;
+    overflow: hidden;
+
+}
+.course h6{
+    opacity: 0.8s;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.course h2{
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.course-preview{
+    /* background-color:crimson; */
+    background-color: #e94408;
+    padding:25px;
+    color:white;
+    max-width: 300px;
+
+}
+.course-preview a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-size: 12PX;
+    margin-top: 30px;
+
+}
+.course-info{
+    padding: 30px;
+    width: 100%;
+    position:relative;
+
+}
+.progress-bar-container{
+    position: absolute;
+    right:30px;
+    top:20px;
+    /* left:25px; */
+    /* border:2px solid black; */
+    padding: 5px;
+    /* background-color: black; */
+}
+.progress{
+    height: 2px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 3px;
+    /* margin-bottom: 10px; */}
+#boo{
+    opacity: 0.6;
+    font-size: 12px;
+}
+.progress::after{
+    content:"";
+    height:2px;
+    width:65%;
+    background-color: #e94408;
+    position: absolute;
+    top:5px;
+    left:0;
+    border-radius: 2PX;
+
+
+}
+button{
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #e94408;
+    border: none;
+    color:white;
+    position: absolute;
+    bottom: 25px;
+    right:20px;
+    letter-spacing: 1px;
+    /* initial-lette */
+
+
+
+}
